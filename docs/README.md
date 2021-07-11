@@ -15,6 +15,21 @@ This simple HomeSpan sketch illustrates how the standard Arduino I2C library `Wi
 * sends updates to HomeKit only if the temperature has changed by more than 0.5 Celsius; and
 * is easily modified to accomodate up to 4 ADT7410 sensors, each with their own unique I2C address.
 
+## Connections
+
+The connections below provide for I2C communicaiton between the ESP32 and the ADT7410 using the 7410's default address of 0x48:
+
+|ADT7410|ESP32|
+|-------|-----|
+|VIN|3V|
+|GND|GND|
+|SDA|SDA|
+|SCL|SCL|
+|A0|unused|
+|A1|unused|
+|INT|unused|
+|CT|unused|
+
 ---
 
 ### Feedback or Questions?

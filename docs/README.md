@@ -9,7 +9,7 @@ Hardware used for this project:
 
 ## Overview
 
-This simple HomeSpan sketch illustrates how the standard Arduino I2C library `Wire.h` can be used to capture temperate readings from an ADT7410 temperature sensor and stream them to HomeKit.   The sketch:
+This simple HomeSpan sketch illustrates how the standard Arduino I2C library `Wire.h` can be used to capture temperature readings from an ADT7410 temperature sensor and stream them to HomeKit.   The sketch:
 * implements a single HomeKit *Accessory* containing a HomeKit *TemperatureSensor Service*;
 * captures samples from the ADT7410 every 5 seconds;
 * sends updates to HomeKit only if the temperature has changed by more than 0.5 Celsius; and

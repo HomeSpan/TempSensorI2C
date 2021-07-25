@@ -1,6 +1,6 @@
 # TempSensorI2C - A HomeSpan Project
 
-TempSensorI2C is an working example of how to use the I2C protocol to capture temperature readings from an Analog Device ADT7410 high-resolution temperature sensor and stream them to HomeKit.  Built using the [HomeSpan](https://github.com/HomeSpan/HomeSpan) HomeKit Library, TempSensorI2C is designed to run on an ESP32 device as an Arduino sketch.  
+TempSensorI2C is a working example of how to use the I2C protocol to capture temperature readings from an Analog Device ADT7410 high-resolution temperature sensor and stream them to HomeKit.  Built using the [HomeSpan](https://github.com/HomeSpan/HomeSpan) HomeKit Library, TempSensorI2C is designed to run on an ESP32 device as an Arduino sketch.  
 
 Hardware used for this project:
 

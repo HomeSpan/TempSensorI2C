@@ -15,6 +15,10 @@ struct DEV_TempSensor : Service::TemperatureSensor {     // A standalone Tempera
 
     this->addr=addr;                      // I2C address of temperature sensor
 
+#ifdef CUSTOM_SDA_PIN
+    Wire.setPins(CUSTOM_SDA_PIN,CUSTOM_SCL_PIN);
+#endif
+
     Wire.begin();                         // start I2C in Controller Mode
     
     Wire.beginTransmission(addr);         // setup transmission

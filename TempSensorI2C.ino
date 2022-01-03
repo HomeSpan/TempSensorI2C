@@ -25,9 +25,15 @@
  *  
  ********************************************************************************/
  
+// Comment out two lines below to use default I2C pins
+
+#define   CUSTOM_SDA_PIN   3       // override default I2C pins
+#define   CUSTOM_SCL_PIN   2
+
 #include "HomeSpan.h" 
 #include "DEV_Identify.h"      
 #include "DEV_Sensors.h" 
+
 
 void setup() {
  
